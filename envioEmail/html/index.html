@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./xampp/htdocs/envioEmail/html/css/style.css" rel="stylesheet">
+    <title>CONTATO</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Contato</h1>
+    </header>
+    <section class="content">
+        <div id="contato">
+
+            <h3>Formulario</h3>
+            <form class="form" method="post" action="email.php">
+                <input class="estilo" name="nome" placeholder="Diga seu nome">
+                <input class="estilo" name="email" placeholder="Email">
+                <textarea class="estilo" name="mesage" placeholder="Escreva uma mensagem"></textarea>
+                <input id="botaoenvio"type="submit" value="enviar">
+            </form>
+        </div>
+    </section>
+</body>
+<style>
+.content{
+    justify-content: center;
+    display: flex;
+}
+.content{
+    width: 100%;
+    max-width: 500px;
+}
+.form{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+.estilo{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    height: 150px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contato{
+    margin-left: 600px;
+    width: 500px;
+}
+#botaoenvio{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(24, 184, 24);
+    font-size: 18px;
+    border-radius: 5px;
+}
+</style>
+</html>

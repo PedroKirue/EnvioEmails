@@ -1,0 +1,26 @@
+.content{
+    justify-content: center;
+    display: flex;
+}
+.content{
+    width: 100%;
+    max-width: 500px;
+}
+.form{
+    flex-direction: column;
+    display: flex;
+}
+.fiel{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    height: 150px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
