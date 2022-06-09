@@ -22,8 +22,8 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port ='587';
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = 'true';
-$mail->Usernamer = 'kiruet1@gmail.com';
-$mail->Password = 'kirukiru12';
+$mail->Usernamer = 'kiruet1@gmail.cswswwwwwom';
+$mail->Password = 'ntemsenha';
 
 //config da mensagem;
 
